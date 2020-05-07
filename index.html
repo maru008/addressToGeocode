@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang = "ja">
+<head>
+    <meta charset="utf-8">
+    <title>座標取得</title>
+    <style>
+        #target{
+            width: 550px;
+            height: 500px;
+        }
+    </style>
+</head>
+<body>
+    <h1>ホテル！</h1>
+    <input type="text" id="address" placeholder="ホテル名">
+    <button id="search">Search</button>
+    <div id="target"></div>
+    <script src="https://maps.googleapis.com/maps/api/js?language=ja&region=JP&key=AIzaSyC6RnNBPYoq6sxRS6Iez1mmHWyRdK4drYE&callback=initMap" async defer></script>
+    <script src="gmap.js"></script>
+</body>
+</html>
