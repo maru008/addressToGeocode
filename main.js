@@ -5,7 +5,7 @@ const NodeGeocoder = require('node-geocoder');
 const options = {
     provider: 'google',
     //fetch: customFetchImplementation,
-    apiKey: 'AIzaSyC6RnNBPYoq6sxRS6Iez1mmHWyRdK4drYE',
+    apiKey: '*******************************',
     formatter: null
 };
 
